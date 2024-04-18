@@ -4,8 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ottx</title>
+    {%include 'bootstrap.html'%}
+
+    <style>
+      body{
+        background-color:rgb(18, 18, 18);
+        color: aliceblue;
+      }
+      .col{
+        margin-top: 4%;
+      }
+    </style>
 </head>
 <body>
-    <iframe src="https://drive.google.com/file/d/15m1IygDo0bB0ZsHkb5RTydwch7j88rVn/preview" width="640" height="480" allowfullscreen></iframe>
+      <h1 class="lead text-center mt-3" style="font-size: 30px;">Welcome Blud</h1>
+
+      <div class="row">
+        <h2 style="position: absolute;top: 8%;">Recently Added</h2>
+        <div class="col">
+          <iframe id="iframe" src="https://drive.google.com/file/d/15m1IygDo0bB0ZsHkb5RTydwch7j88rVn/preview"
+           width="300" height="150"  allowfullscreen></iframe>
+        </div>
+        <div class="col">
+          <iframe id="iframe" src="https://drive.google.com/file/d/15m1IygDo0bB0ZsHkb5RTydwch7j88rVn/preview"
+          width="300" height="150"  allowfullscreen></iframe>
+        </div>
+        <div class="col">
+          <iframe id="iframe" src="https://drive.google.com/file/d/15m1IygDo0bB0ZsHkb5RTydwch7j88rVn/preview"
+          width="300" height="150"  allowfullscreen></iframe>
+        </div>
+        <div class="col">
+          <iframe id="iframe" src="https://drive.google.com/file/d/1rn2y0azrJIZ5g60M2FxwWwRe_LdYBExn/preview"
+                  width="300" height="150" allowfullscreen></iframe>
+      </div>
+    </div>
 </body>
 </html>
